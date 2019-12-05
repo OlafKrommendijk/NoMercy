@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    display: grid;
+}
+
+#page-wrapper{
+    width: 40%;
+    background: rgba( 	66, 66, 66, 0.6);
+    border-radius: 10px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin: auto;
+
+}
+
+.button {
+    height: 8%;
+    border:solid;
+    border-color: black;
+    border-radius: 7px;
+
+    background: rgba(135,100,82,0.75);
+    color: floralwhite;
+
+    text-align: center;
+
+    width:80%;
+    padding: 3%;
+
+    margin:0;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+.button:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=6);
+}
+
+.opnieuw{
+    height: 8%;
+    border:solid;
+    border-color: black;
+    border-radius: 7px;
+
+    background: rgba(255, 102, 102,0.55);
+    color: floralwhite;
+
+    text-align: center;
+
+    width:80%;
+    padding: 3%;
+
+    margin:0;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+.opnieuw:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=6);
+}

@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    align-items: center;
+
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("background.jpg");
+    background-size: cover;
+
+    color: ghostwhite;
+}
+
+#page-wrapper{
+    background: rgba( 	66, 66, 66, 0.6);
+
+    width: 40%;
+
+    border-radius: 10px;
+
+    position: absolute;
+    top: 150px;
+
+    text-align: center;
+    align-items: center;
+
+    margin-left: 30%;
+
+    justify-content: center;
+}
+
+input  {
+    height:32px;
+    width: 50%;
+    border:none;
+
+    background-color:#C2F98E;
+    border-radius: 5px;
+    text-align: center;
+
+    background: rgba(135,100,82,0.75);
+    color: floralwhite;
+
+}
+
+input:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=8);
+}
+
+.registreren{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.inloggen{
+    margin-top: 10%;
+}
+
